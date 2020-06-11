@@ -4,6 +4,6 @@ node {
   if (BRANCH_NAME.startsWith("dev/")) {
     sh "echo dev"
   } else {
-    sh "echo prod"
+    sh "echo prod1"
   }
 }
